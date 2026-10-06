@@ -1,5 +1,6 @@
 # HeapExp
 ### a collection of my solution to various ctf heap challenges .
+- currently most of the challenges are the ones listed in : https://github.com/shellphish/how2heap i also follow their technique classification.
 
 ## The premise
 - The way I do these challenges is for each technique , I only read what mechanism in libc it targets and then I read the source code of malloc.c (or related) and I try to figure out the exploitation path myself , so the repo is a little bit slow paced , and the comments in the exploits may not always be super clear because I am usually figuring things out in the process of writing them.
