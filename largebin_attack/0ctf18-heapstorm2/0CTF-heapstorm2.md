@@ -1438,8 +1438,6 @@ from pwn import *
 context.log_level='critical'
 libcelf = ELF("./libc.so.6")
 heapstorm_elf = ELF("./heapstorm2_patched")
-#for gdb&split-in-mind window
-context.terminal = ['tmux', 'new-window']
 
 def allocate(r,size):
     r.sendline(b'1')
